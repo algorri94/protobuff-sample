@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protobuff.sample;
+
+option java_package = "org.algorrim.protobuff.sample.model";
+
+message SimpleObject {
+    string name = 1;
+    int64 id = 2;
+}
