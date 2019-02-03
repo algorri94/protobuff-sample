@@ -13,7 +13,7 @@ Also you can install and deploy a docker container using docker compose:
 
 In both deployments Maven will take care of running the tests before the installation so that it won't deploy the application if something goes wrong.
 
-##How to use
+## How to use
 In case you are not using the docker container you need to run the application. For that you can either run the JAR directly or use the run.sh script.
 
 The JAR has the following arguments:
