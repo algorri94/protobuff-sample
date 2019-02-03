@@ -31,3 +31,9 @@ So you need to run the following command:
 The run.sh script takes the port, folder and rolling file timeout as arguments.
     
     ./run.sh <port> <folder> <rolling-timeout>
+    
+## Endpoints
+
+- /simpleobject [POST]
+
+Receives a JSON with the following schema: {"id": <integer>, "name": <string>}. If the received data is not in the desired schema nor is a JSON an error will be returned. 
