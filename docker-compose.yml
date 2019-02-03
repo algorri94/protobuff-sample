@@ -1,0 +1,8 @@
+sample:
+  build: .
+  ports:
+    - "8091:8091"
+  environment:
+    - folder=/usr/local/protobuff-sample
+    - port=8090
+    - timeout=86400
