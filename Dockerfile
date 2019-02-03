@@ -7,5 +7,4 @@ ENV folder /usr/local/protobuff-sample
 ENV port 8090
 ENV timeout 86400
 
-CMD ["java", "-jar", "/usr/local/todolist/target/protobuff-sample-1.0-SNAPSHOT-jar-with-dependencies.jar",
- "-p ${port}", "-t ${timeout}", "-f ${folder}"]
+CMD ["sh", "-c", "java -jar /usr/local/protobuff-sample/target/protobuff-sample-1.0-SNAPSHOT-jar-with-dependencies.jar -p ${port} -t ${timeout} -f ${folder}"]
